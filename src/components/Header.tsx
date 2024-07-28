@@ -16,8 +16,8 @@ function Header() {
         />
       </div>
       <div className="flex gap-10 items-center ">
-        {APP_LINKS.map((link) => (
-          <Link href={link.href}>
+        {APP_LINKS.map((link, index) => (
+          <Link key={`applinks-${index}`} href={link.href}>
             <p className="font-semibold">{link.name}</p>
           </Link>
         ))}

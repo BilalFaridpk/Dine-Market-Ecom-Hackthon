@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Sliders } from "lucide-react"
-export default function(){
+export default  function Images(){
     return(
         <>
         
